@@ -1,0 +1,152 @@
+:root {
+  --main-color: #fcfbf9;
+  --secondary-color: #f1f1f1b6;
+  --clr-txt-black: #000000;
+  --clr-whit-1: #ffffef;
+  --clr-whit-2: #f8f5ee;
+  --clr-drk-1: #1e1e1e;
+  --clr-drk-2: #333333;
+  --clr-srch: #f1f1f1;
+}
+
+* {
+  font-family: Inter, Inter-fallback, system-ui;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*Start  Header */
+
+/* .container-sp{
+  width: 90%;
+  margin: auto;
+} */
+
+header {
+  box-shadow: 0 6px 5px 0 rgba(126, 126, 126, 0.555);
+}
+
+.img-logo img {
+  width: 200px;
+  height: 30px;
+}
+
+.icon-header i {
+  font-size: 1.5rem;
+}
+
+/* Start ***navBar** */
+
+nav {
+  width: 85% !important;
+  margin: 0 auto;
+}
+
+nav li a {
+  font-size: 16px !important;
+  color: var(--clr-drk-2) !important;
+}
+
+form {
+  width: 100%;
+}
+
+.srch {
+  background-color: var(--secondary-color);
+  padding-block: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.gr-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+/* End  ***navBar** */
+
+/* End Header */
+
+/* Start Responsive */
+
+/* Start Header */
+
+/* **********************Start Media Quary*********************************** */
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+  header .alert {
+    display: block;
+  }
+
+  header .alert p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo form {
+    display: none;
+  }
+
+  .fa-solid.fa-magnifying-glass {
+    display: flex !important;
+  }
+
+  .icon-header .fa-solid.fa-bars {
+    display: flex !important;
+  }
+
+  ul {
+    display: none !important;
+  }
+
+  .child-hero p,
+  .child-hero span {
+    font-size: 16px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Hero Sec */
+
+  .slide-1 {
+    display: none;
+  }
+
+  .slide-2 {
+    display: block !important;
+  }
+
+  .cr-parent {
+    position: relative !important;
+    overflow: visible !important;
+  }
+
+
+
+  .txt-cr {
+    position: absolute !important;
+    bottom: -50px !important;
+    overflow: visible !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.9) !important;
+    z-index: 5 !important;
+  }
+}

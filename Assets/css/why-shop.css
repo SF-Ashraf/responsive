@@ -1,0 +1,54 @@
+.why-shp{
+    background-color: var( --secondary-color);
+    width: 100%;    
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+
+   
+    
+
+
+
+
+
+.why-shp .card-why-shop{
+    
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    width: 23%;
+
+    height: fit-content;
+   
+    
+   
+}
+
+
+.card-text{
+    text-align: center;
+    
+}
+
+.why-shp .card-why-shop .icon-why-shoop{
+    text-align: center;
+}
+
+
+
+
+
+/* media */
+
+
+
+@media (max-width: 1024px) {
+.why-shp .card-why-shop{padding: 0;}
+}
+
+@media (max-width : 768px){
+
+.cards-why-shop{gap: 2}
+.why-shp .card-why-shop{width:45% ; margin-bottom: 1rem;}
+}

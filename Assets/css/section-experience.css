@@ -1,0 +1,51 @@
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container-card{
+    width: 93%;
+    margin: auto;
+}
+
+
+.container-card .cards{
+    
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.card-exp{
+    width: calc(93% / 4);
+    
+}
+
+
+.card-exp img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .container-card{width: 90%;}
+
+    .container-card .cards{
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        
+    }
+
+
+    .container-card .cards .card{
+        width: calc(90% / 2);
+    }
+}
