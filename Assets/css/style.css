@@ -86,7 +86,20 @@ form {
 
 /* **********************Start Media Quary*********************************** */
 
+
+
+
+
+
 @media (min-width: 320px) and (max-width: 991.98px) {
+
+ .logo{
+  overflow: hidden;
+ }
+  .container-header{
+   
+    width: 100% !important;
+  }
   header .alert {
     display: block;
   }
@@ -96,10 +109,43 @@ form {
     flex-direction: column;
   }
 
+  .logo{
+    width: 100%;
+  }
+
   .img-logo {
-    width: 40%;
-    margin: 0;
-    padding: 0;
+    width: 60% !important;
+  }
+
+  .img-logo img{
+    width: 100%;
+  }
+
+  .img-logo span{
+   font-size: .7rem;
+   font-weight: bold;
+  }
+
+  .logo{
+    
+    width: 100% !important;
+    margin: auto !important;
+    justify-content: center !important;
+    
+  }
+
+  .gr-icon{
+    width: 20% !important;
+    gap: 1 !important;
+    margin: 0 !important;
+    
+  }
+
+  .gr-icon i{
+    max-width: 60% !important;
+    font-size: 1rem !important;
+    display: flex;
+    margin: 0 !important;  
   }
 
   .logo form {
@@ -108,13 +154,17 @@ form {
 
   .fa-solid.fa-magnifying-glass {
     display: flex !important;
+    justify-content: center;
+    align-items: center;
   }
 
   .icon-header .fa-solid.fa-bars {
     display: flex !important;
+    justify-content: center;
+    align-items: center;
   }
 
-  ul {
+  .nav-header {
     display: none !important;
   }
 
@@ -136,17 +186,123 @@ form {
   }
 
   .cr-parent {
+    width: 100%;
     position: relative !important;
     overflow: visible !important;
   }
 
+  .cr-itm{
+    width: 100% !important;
+    height: 100% !important;
+  }
 
+.cr-itm img{
+  width: 100% !important;
+  height: 40vh !important;
+  object-fit: cover;
+  object-position: center;
+  
+}
 
   .txt-cr {
     position: absolute !important;
-    bottom: -50px !important;
-    overflow: visible !important;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.9) !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(50%);
     z-index: 5 !important;
+    width: 95%;
+    margin:0 auto;
+    line-height: 2;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+    text-transform: uppercase;
+    
   }
+.container-main{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F5F5;
 }
+
+
+.nav1-main{
+
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+  margin-top: 9rem !important;
+
+  
+}
+
+.parent-navmain{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+ 
+}
+
+.parent-navmain .nav{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+
+ 
+}
+
+
+.parent-navmain .nav li{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+    border-bottom: 2px solid #53535377;
+
+ 
+  
+}
+
+.parent-navmain .nav li a{
+  border: none;
+  display: flex;
+  color: #000000 !important;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+   
+}
+
+.container-card{
+  
+}
+
+
+.cards{
+  
+  width: 100%;
+}
+
+
+
+.card-exp{
+ 
+  width: 100% !important;
+ 
+}
+
+
+.card-exp img{
+   width: 100%;
+}
+
+
+}
+
+
+
+
+
+
